@@ -52,6 +52,10 @@ An AI-powered application that simulates and analyzes group discussions using a 
 - AssemblyAI API
 - ElevenLabs API
 - PyTorch
+
+- Visuals:
+
+  
 ![page1](https://github.com/user-attachments/assets/02ee355c-6877-4134-adcb-1bfb15457da0)
 
 ![dashboard](https://github.com/user-attachments/assets/06b98ab8-a517-4287-982f-77f4787be833)
