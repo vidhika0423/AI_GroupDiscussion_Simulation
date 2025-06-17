@@ -1,3 +1,4 @@
+
  # AI Group Discussion Simulation
 
 An AI-powered application that simulates and analyzes group discussions using a fine-tuned Large Language Model (Mistral) with LoRA. The project features a FastAPI backend, a React frontend, and integrates speech-to-text and text-to-speech capabilities for a seamless, real-time GD experience.
@@ -51,4 +52,14 @@ An AI-powered application that simulates and analyzes group discussions using a 
 - AssemblyAI API
 - ElevenLabs API
 - PyTorch
+![page1](https://github.com/user-attachments/assets/02ee355c-6877-4134-adcb-1bfb15457da0)
+
+![dashboard](https://github.com/user-attachments/assets/06b98ab8-a517-4287-982f-77f4787be833)
+
+![gdRoom](https://github.com/user-attachments/assets/07f65aef-3ed7-4f5f-8817-6ea90d313ab4)
+
+![analysis](https://github.com/user-attachments/assets/b09ae2c5-e562-4969-a381-9ba8391c9d18)
+
+
+
 
