@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  
+  .left-panel {
+    width: 50%;
+    background: linear-gradient(180deg, #1b3a57, #27496d);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .GDPhoto {
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    overflow: hidden; 
+    align-items: center;
+    
+  }
+  
+  .GDPhoto-img {
+    width: 100%;       
+    height: auto;     
+    object-fit: cover;  
+    display: block;
+    border-radius: 10px;
+  }
+  .welcome-box {
+    max-width: 400px;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    color: #123f64;
+    margin-bottom: 1rem;
+  }
+  
+  .subtext {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  /* === Right Panel === */
+  .right-panel {
+    width: 50%;
+    background-color: #f5f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    height:auto;
+  }
+
+
+  
+
+  
+ 
+  
+  
+
+ 

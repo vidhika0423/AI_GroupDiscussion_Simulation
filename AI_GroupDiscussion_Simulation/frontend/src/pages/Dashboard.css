@@ -1,0 +1,89 @@
+/* File: src/TopicSelector.css */
+
+.containerbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    z-index: 1;
+   
+  }
+  
+  .containerbox::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/DashboardBg.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3; 
+    z-index: -1;
+  }
+  
+  .box {
+    border: 0.5px solid #bfd2eb;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    width: 550px;
+    height:550px;
+    margin-left:50px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+  }
+  .box-left{
+    margin-left:50px;
+  }
+  
+  .heading {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue";
+
+  }
+  
+  .btn, .start-btn {
+    
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+    border: 0.5px solid #c2d2f3;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    font-family: inherit;
+    height:70px;
+  }
+  .btn:hover{
+    background-color: #0f67ab;
+    opacity:0.8;
+  }
+  .start-btn:hover{
+    background-color: rgb(247, 17, 25);
+  }
+  
+  .rules {
+    margin-left:20px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  ul{
+    margin-left:40px;
+  }
+  
+  .start-btn {
+    width: 60%;
+    margin-top: 30px;
+  }

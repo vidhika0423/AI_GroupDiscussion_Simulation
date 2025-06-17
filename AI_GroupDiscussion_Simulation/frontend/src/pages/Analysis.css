@@ -1,0 +1,40 @@
+.analysis-container {
+  width: 95%;
+  margin: 2rem auto;
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+  height: 90%;
+}
+
+.analysis-header {
+  background-color: #b6cce4;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.analysis-content {
+  border: 1px solid #333;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: auto;  
+  height:500px;
+  max-height: 90%;
+  background-color: rgb(212, 227, 241);
+}
+
+.analysis-content h3, .analysis-content h4 {
+  margin-bottom: 10px;
+}
+
+.analysis-content p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
